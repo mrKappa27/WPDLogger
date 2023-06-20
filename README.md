@@ -11,11 +11,13 @@ ESP32 offline pressure datalogger to microsd.
 ## Future improvements
 
 :satellite: Send data via LoraWan and/or WiFi to a remote endpoint
+
 :sparkles: Custom PCB
+
 :hourglass: External RTC
+
 :blue_book: Bluetooth setup (Date and time + logging cadence)
 
 ## Contributing
 
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
