@@ -21,7 +21,7 @@ uint64_t ADC_T_STAB = 50;
 
 // These constants won't change:
 const int sensorPin = 2;  // pin that the sensor is attached to
-const int ledPin = 25;    // pin that the LED is attached to
+const int ledPin = 25;      // pin that the LED is attached to
 
 //Max pressure value in Bar/100 (5Bar = 500)
 const int maxPressure = 550;
@@ -34,7 +34,7 @@ RTC_DATA_ATTR int readingID = 0;
 String dataMessage;
 
 // variables:
-int sensorValue = 0;      // the sensor value
+int sensorValue = 0;    // the sensor value
 int sensorMin = 300;      // minimum sensor value (0 Bar @ 0.5V -> ~300pt)
 int sensorMax = 3795;     // maximum sensor value(5 Bar @ 4.5V -> ~3795pt)
 
